@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+header {
+    background-image: url(../assets/imagenes/banner.webp);
+    margin-bottom: 10px;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    text-align: center;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+
+}
+
+nav ul li a:hover {
+    color: chartreuse;
+    
+}
+
+.link {
+    background-color: black;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1rem;
+    margin-left: 20px;
+    padding: 4px;
+    text-align: center;
+
+
+}
+
+.box {
+    text-align: left;
+
+}
+.contenido{
+    text-align: center
+    ;
+}
+.normal {
+    background-color: aliceblue;
+    font-size: 1.5 rem;
+    width: 400px
+    height: 400px;
+    padding: 100px;
+    padding-top 50px;
+    padding: :left 20px;
+    padding: :right 10px;
+    padding: button 10px;
+    border: solidcolor;
+    margin:  0 auto;
+}
+
+h3 {
+    font-weight: lighter;
+    font-size: medium;
+    font-style: italic;
+}
+
+
+
+
+h1 {
+    text-align: center;
+}
+
+.formulario{
+    background-color: darkgrey;
+    width: 300px;
+    height: 300px;
+    border: solid;
+    margin: 0 auto;
+}
+.contenedor{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.hijo{
+    width: 200%;
+    height: 200%;
+
+}
+
+footer {
+    background-color: dimgrey;
+}
+
+.copy {
+    text-align: center;
+}
+
+.redes {
+    text-align: left;
+}
