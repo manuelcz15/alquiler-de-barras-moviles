@@ -6,65 +6,129 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drinks-team</title>
+    <link rel="stylesheet" href="./ccs/bootstrap.min.css">
     <link rel="stylesheet" href="./ccs/style.css">
     <link rel="shortcut icon" href="./assets/imagenes/d46c9c1c-84c0-411a-b1b8-602a81617e51.jpg" type="image/png" />.
 
 </head>
 
 <body>
-    <header>
-        <div class="box">
-            <img width="120" height="120" src="./assets/imagenes/d46c9c1c-84c0-411a-b1b8-602a81617e51.jpg" alt="logo">
 
-        </div>
-
-
-        <nav>
-            <ul>
-                <li><a class="link" href="#">Inicio</a></li>
-                <li><a class="link" href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a class="link" href="./pages/servicios.html">Servicios</a></li>
-                <li><a class="link" href="./pages/galeria.html">Galeria</a></li>
-                <li><a class="link" href="./pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-
-
+    <header class="header">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/imagenes/logo.jpg" alt="Bootstrap" width="80" height="80">
+                </a>
+                <button class="navbar-toggler boton_hambur" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center w-100 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main class="contenido">
         <h1>ALQUILER DE BARRAS MOVILES</h1>
-        <img src="./assets/imagenes/inicio.jpg" alt="">
+        <section>
+            <img src="./assets/imagenes/inicio.jpg" class="img-fluid" alt="...">
+        </section>
+        <div class="ratio ratio-16x9">
+            <iframe src="./assets/videos/video chica.mp4" title="" allowfullscreen></iframe>
+        </div>
+
         <div class="normal">
             <h2>Inicio</h2>
-            <p>En Drinks-team brindamos un sofisticado servicio de Barras Móviles para fiestas y eventos, estamos presente
+            <p>En Drinks-team brindamos un sofisticado servicio de Barras Móviles para fiestas y eventos, estamos
+                presente
                 en toda la región liderando la coctelería en eventos hace 14 años.
-    
+
                 Diseñamos e Innovamos en más de 12 barras de estilo único cumpliendo con estándares de calidad.
-    
-                Contamos con un servicio de logística y profesionales para cubrir hasta 4 eventos por noche. Nuestro equipo
+
+                Contamos con un servicio de logística y profesionales para cubrir hasta 4 eventos por noche. Nuestro
+                equipo
                 de Bartenders profesionales están en constante capacitación para mantener un servicio de excelencia.
-    
+
                 Trabajamos con una extensa carta de tragos con bebidas de primera calidad y marcas de reconocimiento
                 mundial, formada con tragos de autor, coctelería clásica y moderna.</p>
         </div>
-        
+
 
     </main>
     <footer>
+        <div class="container-fluid">
+            <div class="row p-5 pb-2 bg-dark text-white">
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h3">Drinks-team</p>
 
-        <div class="redes">
-            <h2>Encuntranos en:</h2>
-            <p>Instagram</p>
-            <p>Facebook</p>
-            <p>Discord</p>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-3">Redes</p>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">Instagram</a>    
+                    </div>
+                   <div class="mb-2">
+                    <a class="text-secondary text-decoration-none" href="#">Facebook</a>
+                   </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">Twitter</a>
+                    </div>
+                    
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-3">links</p>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">Terminos y Condiciones</a>
+                        <div class="mb-2">
+                            <a class="text-secondary text-decoration-none" href="#">Politica de Privacidad</a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-3">Contacto</p>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">whatsapp</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">Telegram</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">Discord</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 pt-4">
+                    <p class="text-white text-center">Copyright todos los derechos reservados 2022</p>
+                </div>
+            </div>
+            
 
         </div>
-        <p class="copy">@ 2022 derechos reservados</p>
-        
-        
+
 
     </footer>
+    <script src="./js/bootstrap.bundle.min.js">
+
+    </script>
 </body>
 
 </html>

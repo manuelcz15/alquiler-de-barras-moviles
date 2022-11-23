@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    
+
 }
 
 header {
@@ -24,7 +24,7 @@ nav li {
 
 nav ul li a:hover {
     color: chartreuse;
-    
+
 }
 
 .link {
@@ -43,22 +43,22 @@ nav ul li a:hover {
     text-align: left;
 
 }
-.contenido{
-    text-align: center
-    ;
+
+.contenido {
+    text-align: center;
 }
+
 .normal {
     background-color: aliceblue;
     font-size: 1.5 rem;
-    width: 400px
-    height: 400px;
+    width: 400px height: 400px;
     padding: 100px;
     padding-top 50px;
     padding: :left 20px;
     padding: :right 10px;
     padding: button 10px;
     border: solidcolor;
-    margin:  0 auto;
+    margin: 0 auto;
 }
 
 h3 {
@@ -74,27 +74,41 @@ h1 {
     text-align: center;
 }
 
-.formulario{
+.formulario {
     background-color: darkgrey;
     width: 300px;
     height: 300px;
     border: solid;
     margin: 0 auto;
 }
-.contenedor{
+
+.contenedor {
     background-color: antiquewhite;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 
 
 }
-.hijo{
+
+.hijo {
     width: 200%;
     height: 200%;
 
+
 }
+
+.boton_hambur {
+    border-radius: 25%;
+    background-image: url(../assets/imagenes/menu\ hamburguesa.jpeg);
+}
+
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
 
 footer {
     background-color: dimgrey;

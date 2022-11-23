@@ -1,74 +1,181 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Servicios</title>
-   <link rel="stylesheet" href="../ccs/style.css">
+    <link rel="stylesheet" href="../ccs/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="../ccs/style.css">
 </head>
+
 <body>
     <header>
-        <div class="box">
-            <img width="120" height="120" src="../assets/imagenes/d46c9c1c-84c0-411a-b1b8-602a81617e51.jpg" alt="logo"> 
-        </div>
-        
-        <nav>
-            <ul>
-                <li><a class="link" href= "../index.html">Inicio</a></li>
-                <li><a class="link" href= "./nosotros.html">Nosotros</a></li>
-                <li><a class="link" href= "#">Servicios</a></li>
-                <li><a class="link" href= "./galeria.html">Galeria</a></li>
-                <li><a class="link" href= "./contacto.html">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../assets/imagenes/logo.jpg" alt="Bootstrap" width="80" height="80">
+                </a>
+                <button class="navbar-toggler boton_hambur" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center w-100 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
+        
     </header>
     <main>
         <h1>SERVICIOS</h1>
-        <div>
-            <img src="../assets/imagenes/barranacional.jpg" alt="">
-            <h2>Barra Nacional</h2>
-            <p>Nuestra Barra Nacional cuenta con una variedad de 13 tragos con bebidas nacionales de primera calidad.
-                Los mejores tragos variados Clásicos, Frozzen y Tropicales para cumplir con todos los gustos.</p>
-                <h3>Incluye</h3>
-                <p>3 variedades de tragos, gaseosas línea Coca Cola, agua, jugos.</p>
-                <h3>Marcas</h3>
-                <p>ernet Branca, Campari, Martini Rosso, Cynar, Bols y Pulpas Naturales, Campari y Martini</p>
-        </div>
-        <div>
-            <img src="../assets/imagenes/barrapremiun.jpg" alt="">
-            <h2>Barra Premiun</h2>
-            <p>Nuestra Barra Premium incluye una variedad de 17 tragos con marcas únicamente importadas para disfrutar de los mejores tragos modernos, clásicos y exóticos. Todos los tragos son decorados con frutas naturales.</p>
-            <h3>Incluye</h3>
-            <p>17 variedades de tragos, gaseosas línea Coca Cola, agua, jugos.</p>
-            <h3>Marcas</h3>
-            <p>fernet Branca, Campari, Martini, Smirnoff, Havana Club, Bacardi, Jose Cuervo, Cynar, Licores Bols, Gin Gordons, Beefeater, Velho Barreiro, Johnnie Walker Red, Principe de los Apostoles, Jameson y Pulpas Naturales, gordons, havana-club,johnnie-walker, jose-cuervo</p>
-        </div>
-        <div>
-            <img src="../assets/imagenes/highvoltage.jpg" alt="">
-            <h2>High Voltage</h2>
-            <p>Barra de cocktails elaborados con etiquetas Premium básicas importadas. Ofrece una carta variada con diferentes métodos de elaboración, ya sean, directos, batidos, refrescados y frozen.</p>
-            <h3>incluye</h3>
-            <p>12 variedades de Tragos, aperitivos, tropicales y frozzen.</p>
-            <h3>Marcas</h3>
-            <p>Marcas: Smirnoff o Sky, 100 Pipers, Branca, Gancia, Campari, Cinzano, Black Prince Gin o Gordon's, Bacardi o Havana Club, Velho Barreiro o Pitu, Cusenier.</p>
-        </div>
-        <div>
-            <img src="../assets/imagenes/barrasinacohol.jpg" alt="">
-            <h2>Barra Sin Alcohol</h2>
-            <p>Barras sin Alcohol, ideal para aquellos que nos les gusta o no pueden tomar espirituosas ni licores con proporciones alcohólicas. La mejor opción para teenagers.</p>
-        </div>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div data-aos="slide-left" data-aos-delay="100" class="col">
+                            <div class="card">
+                                <img width="250" height="250" src="../assets/imagenes/trago y botella.jpeg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Barra Nacional</h5>
+                                    <p class="card-text">Barra de cocktails elaborados con etiquetas Premium básicas
+                                        importadas. Ofrece una carta variada con diferentes métodos de elaboración, ya
+                                        sean, directos, batidos, refrescados y frozen.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="slide-left" data-aos-delay="100" class="col">
+                            <div class="card">
+                                <img width="250" height="250" src="../assets/imagenes/highvoltage.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Barra Hihg Voltaje</h5>
+                                    <p class="card-text">Barra de cocktails elaborados con etiquetas extra Premium
+                                        importadas. Ofrece una carta variada con diferentes métodos de elaboración, ya
+                                        sean, directos, batidos, refrescados y frozen. Cocktails clásicos, tropicales y
+                                        de autor por Luciano Berardi.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="slide-right" data-aos-delay="100" class="col">
+                            <div class="card">
+                                <img width="250" height="250" src="../assets/imagenes/barra premum.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Barra premiun</h5>
+                                    <p class="card-text">arra de Cocktails con etiquetas Premium básicas importadas y
+                                        cocktails sin alcohol, Cerveza, Vino tinto y Blanco y Champagne extra Brut sólo
+                                        para el brindis. Coctelería clásica, moderna, americana y tropical.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-aos="slide-right" data-aos-delay="100" class="col">
+                            <div class="card">
+                                <img width="250" height="250" src="../assets/imagenes/barrasinacohol.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Barra Sin Alcohol</h5>
+                                    <p class="card-text">Barras sin Alcohol, ideal para aquellos que nos les gusta o no
+                                        pueden tomar espirituosas ni licores con proporciones alcohólicas. La mejor
+                                        opción para teenagers.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+        </section>
+
+
     </main>
     <footer>
-        
-        <div class="redes">
-            <h2>Encuntranos en:</h2>
-            <p>Instagram</p>
-            <p>Facebook</p>
-            <p>Discord</p>
+
+        <div class="container-fluid">
+            <div class="row p-5 pb-2 bg-dark text-white">
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h3">Drinks-team</p>
+
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-3">Redes</p>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">Instagram</a>    
+                    </div>
+                   <div class="mb-2">
+                    <a class="text-secondary text-decoration-none" href="#">Facebook</a>
+                   </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">Twitter</a>
+                    </div>
+                    
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-3">links</p>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">Terminos y Condiciones</a>
+                        <div class="mb-2">
+                            <a class="text-secondary text-decoration-none" href="#">Politica de Privacidad</a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-3">Contacto</p>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">whatsapp</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">Telegram</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="#">Discord</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 pt-4">
+                    <p class="text-white text-center">Copyright todos los derechos reservados 2022</p>
+                </div>
+            </div>
+            
+
         </div>
-        <p class="copy">@ 2022 derechos reservados</p>
+
 
     </footer>
+    <script src="../js/bootstrap.bundle.min.js">
+ </script>
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+ AOS.init();
+ </script>
 </body>
+
 </html>
