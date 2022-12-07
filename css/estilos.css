@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+.header {
+  background-image: url(../assets/imagenes/banner.webp);
+  margin-bottom: 10px;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+  text-align: center; }
+  .header .boton_hambur {
+    border-radius: 25%;
+    background-image: url(../assets/imagenes/); }
+
+.normal {
+  text-align: center; }
+
+h3 {
+  font-weight: lighter;
+  font-size: medium;
+  font-style: italic; }
+
+h1 {
+  text-align: center; }
+
+#hero {
+  min-height: 100vh;
+  position: relative;
+  margin-top: o; }
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.capa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  mix-blend-mode: overlay; }
+
+.noso {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: rgba(240, 245, 245, 0.534);
+  padding-top: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  position: relative;
+  z-index: 2; }
+
+#galeria .col-lg-4 {
+  margin: o !important;
+  padding: 25px; }
+
+#galeria img {
+  width: 100%;
+  height: 250px; }
+
+#galeria img:hover {
+  border: 5px solid rgba(240, 245, 245, 0.534); }

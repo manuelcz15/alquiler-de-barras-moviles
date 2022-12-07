@@ -51,14 +51,14 @@ nav ul li a:hover {
 .normal {
     background-color: aliceblue;
     font-size: 1.5 rem;
-    width: 400px height: 400px;
-    padding: 100px;
+    width:400px height: 400px;
+    padding : 100px;
     padding-top 50px;
-    padding: :left 20px;
-    padding: :right 10px;
-    padding: button 10px;
-    border: solidcolor;
-    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-button: 10px;
+    border : solidcolor;
+    margin : 0 auto;
 }
 
 h3 {
@@ -101,7 +101,7 @@ h1 {
 
 .boton_hambur {
     border-radius: 25%;
-    background-image: url(../assets/imagenes/menu\ hamburguesa.jpeg);
+    background-image:url(../assets/imagenes/menu\hamburguesa.jpeg);
 }
 
 .carousel-item img {
